@@ -1,0 +1,63 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.27.2",
+    "copy-to-clipboard": "^3.3.1",
+    "ethers": "^5.6.8",
+    "lodash": "^4.17.21",
+    "moralis": "^1.8.0",
+    "notistack": "^2.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.1",
+    "react-jazzicon": "^1.0.3",
+    "react-moralis": "^1.4.0",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "react-tsparticles": "^2.0.6",
+    "tsparticles": "^2.0.6",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.33",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
